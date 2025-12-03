@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+weed-env/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+
+# Large files and weed-detector folder (models, results, data)
+weed-detector/
+*.pt
+*.pth
+*.weights
+*.onnx
+
+# Media outputs
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
